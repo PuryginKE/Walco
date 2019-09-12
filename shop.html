@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>W-ALCO</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" type="text/css" href="slick/slick.css">
+       <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <script src="js/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dropdownPlain.js"></script>
+    <script type="text/javascript" src="js/scripts2.js"></script>
+  <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/scripts.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body>
+
+
+       <div class="menu_authorization" style="display: none;">
+    <ul class="tabs">
+      <li class="tab_button tab_button_active">Вход</li><li class="tab_button">Регистрация</li>
+        <div class="tab_content">
+            <form>
+              <input type="hidden" name="mode" value="login">
+              <div style="border:none">
+                <input data-name="username" class="b-input" type="text" id="username" autocomplete="username" maxlength="255" name="username" placeholder="логин">
+                <input data-name="password" class="b-input" type="password" id="password" autocomplete="password" maxlength="255" name="password" placeholder="пароль">
+              </div>
+              <div style="border:none">
+                <button type="submit" class="a-button">Вход</button>
+              </div>
+            </form>
+        </div>
+        <div class="tab_content tab_hide">
+          <form>
+              <input type="hidden" name="mode" value="login">
+              <div style="border:none">
+                <input data-name="username" class="b-input" type="text" id="username" autocomplete="username" maxlength="255" name="username" placeholder="логин">
+                <input data-name="password" class="b-input" type="password" id="password" autocomplete="password" maxlength="255" name="password" placeholder="пароль">
+                  <input data-name="password" class="b-input" type="password" id="password" autocomplete="password" maxlength="255" name="password" placeholder="почта">
+
+              </div>
+              <div style="border:none">
+                <button type="submit" class="a-button">Регистрация</button>
+              </div>
+            </form>
+        </div>
+
+    </ul>
+
+    <button class="btn_close"></button>
+
+  </div>   
+    <nav class="navbar navbar-inverse"> 
+        <div class="container"> 
+        <div class="navbar-header"> 
+        <a class="navbar-brand" href="#">W-ALCO</a> 
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> 
+        <span class="sr-only">Toggle navigation</span> 
+        <span class="icon-bar"></span> 
+        <span class="icon-bar"></span> 
+        <span class="icon-bar"></span> 
+        </button> 
+        </div> 
+        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false"> 
+        <ul class="nav navbar-nav navbar-left"> 
+        <li ><a href="index.html">Главная</a></li> 
+        <li class="active"><a href="">Каталог</a></li> 
+        <li><a href="">О компании</a></li> 
+        <li><a href="">Контакты</a></li> 
+        </ul> 
+        <ul class="nav navbar-nav navbar-right"><li><div id="m3"><button id="authorization">Авторизация</button></div></li></ul> 
+        </div> 
+        </div> 
+    </nav>
+
+   
+
+<div class="shopping-cart">
+      <!-- Title -->
+      <div class="title">
+        Корзина
+        <button style="margin-left:75%">Оплатить</button>
+      </div>
+      
+      <!-- Товар #1 -->
+      <div class="item">
+        <div class="buttons">
+          <span class="delete-btn"></span>
+          <span class="like-btn"></span>
+        </div>
+ 
+        <div class="image">
+          <img src="k1.png" alt="" style="width:100px; height: 80px;" />
+        </div>
+ 
+        <div class="description">
+          <span>Коньяк</span>
+          <span>Армения</span>
+          <span>40%</span>
+        </div>
+ 
+        <div class="quantity">
+          <button class="plus-btn" type="button" name="button">
+            <img src="cancel.png" alt="" />
+          </button>
+          <input type="text" name="name" value="1">
+          <button class="minus-btn" type="button" name="button">
+            <img src="cancel.png" alt="" />
+          </button>
+        </div>
+ 
+        <div class="total-price">$549</div>
+      </div>
+ 
+      <!-- Товар #2 -->
+      <div class="item">
+        <div class="buttons">
+          <span class="delete-btn"></span>
+          <span class="like-btn"></span>
+        </div>
+ 
+        <div class="image">
+           <img src="k1.png" alt="" style="width:100px; height: 80px;" />
+        </div>
+ 
+        <div class="description">
+          <span>Водка</span>
+          <span>Россия</span>
+          <span>45%</span>
+        </div>
+ 
+        <div class="quantity">
+          <button class="plus-btn" type="button" name="button">
+            <img src="cancel.png" alt="" />
+          </button>
+          <input type="text" name="name" value="1">
+          <button class="minus-btn" type="button" name="button">
+            <img src="cancel.png" alt="" />
+          </button>
+        </div>
+ 
+        <div class="total-price">$870</div>
+      </div>
+ 
+      <!-- Товар #3 -->
+      <div class="item">
+        <div class="buttons">
+          <span class="delete-btn"></span>
+          <span class="like-btn"></span>
+        </div>
+ 
+        <div class="image">
+          <img src="k1.png" alt="" style="width:100px; height: 80px;" />
+        </div>
+ 
+        <div class="description">
+          <span>Виски</span>
+          <span>Шотландия</span>
+          <span>40%</span>
+        </div>
+ 
+        <div class="quantity">
+          <button class="plus-btn" type="button" name="button">
+            <img src="cancel.png" alt="" />
+          </button>
+          <input type="text" name="name" value="1">
+          <button class="minus-btn" type="button" name="button">
+            <img src="cancel.png" alt="" />
+          </button>
+        </div>
+ 
+        <div class="total-price">$349</div>
+      </div>
+    </div>
+
+      </div>
+   <footer>W-ALCO</footer>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

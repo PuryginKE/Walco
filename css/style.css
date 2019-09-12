@@ -1,0 +1,552 @@
+﻿.footer{ 
+position: absolute; 
+bottom: 0; 
+width: 100%; 
+height: 60px; 
+background: #053758;
+} 
+.footer .container{ 
+line-height: 60px; 
+} 
+.footer .container p{ 
+margin: 0; 
+padding: 0; 
+}
+.row{
+		margin: auto;
+		text-align:center;
+		
+		/*background-color: rgba(255,255,255,.55);*/
+		}
+.pictureCurrent{
+
+				height: 400px;
+				
+				text-align: center;}
+
+.pictureCurrent	img{
+					height:90%;
+
+				}
+
+.borderStyle{
+						border: 1px red solid; 
+						box-sizing: border-box;
+					}
+					
+.regular div img{
+            width: 60%;
+            display: none;
+            }
+            
+				
+			
+.regular div ul{
+				margin-top: 20px;
+				display:inline-block;}
+.regular div ul	li{
+				list-style-type: none;
+				color: black;}
+.regular div ul	li	img{
+
+					height: 200px;
+					width: 300px;
+					}
+footer {
+  background: #053758;
+    
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+    color:black;
+    background: url(../pic/sea.jpg) no-repeat;
+    background-size: cover;
+}
+section{
+	width: 70%;
+	margin: 0 auto;
+	
+}
+html{ 
+min-height: 100%; 
+position: relative; 
+}
+.row{ 
+margin-bottom: 40px; 
+}
+body{
+  font-family: Tahoma;
+	background-size: cover;
+	height: 100%;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+li{
+	list-style-type: none;
+}
+.navbar-right{
+	line-height: inherit;
+}
+.navbar{
+  border-radius: 0px;
+}
+.navbar-inverse{
+  background-color: #053758;
+}
+
+#m3{
+	text-align: right;
+	padding-right: 0px;
+	float: right;
+	padding-right: 20px;	
+}
+/* Меню авторизации */
+#authorization:hover{
+	background-color: #2c6d99;
+	
+}
+#authorization:focus{
+	outline: none;
+}
+#authorization:active{
+	background-color:  #053758;
+}
+#authorization{
+	padding: 0 15px;
+	cursor: pointer;
+	background-color:  #053758;
+	border: none;
+	height: 50px;
+	
+	font-size:22px;
+	color: white;
+}
+.menu_authorization{
+	position: fixed;
+	background-color: rgba(0,0,0,.85);
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	text-align: center;
+}
+.btn_close{
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	background: url(../cancel.png) no-repeat;
+	background-size: cover;
+	width: 35px;
+	height: 35px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.btn_close:hover{
+	opacity: .7;
+}
+.menu_authorization ul{
+	margin-top: 200px;
+	width: 500px;
+	display: inline-block;
+	list-style: none;
+	overflow: hidden;
+}
+
+.tab_button{
+	box-sizing: border-box;
+	width: 50%;
+	float: left;
+	font-family: helvetica;
+	font-size: 30px;
+	color: white;
+	border: 1px white solid;
+	border-radius: 3px 3px 0 0;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.tab_button_active{
+	border-bottom: none;
+	padding-bottom: 11px;
+	cursor: default;
+}
+
+.tab_hide{
+	display: none;
+}
+
+.menu_authorization ul div{
+	border: 1px white solid;
+	border-top: 0;
+	border-radius: 3px;
+}
+
+p {
+    margin: 15px 0;
+}
+.b-input{
+	background-color: rgba(0,0,0,.5); 
+border: 0px silver solid; 
+border-radius: 2px; 
+line-height: 25px; 
+padding: 5px; 
+font-size: 20px; 
+color: white; 
+margin: 10px 0;
+}
+
+.a-button{
+	width: 150px; 
+margin-top: 10px; 
+margin-bottom: 10px; 
+background: #053758;
+border: none; 
+line-height: 30px; 
+cursor: pointer; 
+border-radius: 2px; 
+font-size: 20px; 
+color: white;
+outline: none;
+}
+.a-button:hover
+{
+	background-color: #386e92;
+}
+.a-button:active{
+	background-color: #053758;
+}
+.button_a_div{
+	border:none;
+}
+
+
+
+.shopping-cart {
+  width: 750px;
+  height: auto;
+  margin: 80px auto;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 6px;
+ 
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  height: 60px;
+  border-bottom: 1px solid #E1E8EE;
+  padding: 20px 30px;
+  color: #5E6977;
+  font-size: 18px;
+  font-weight: 400;
+}
+ 
+.item {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+}
+ 
+.item:nth-child(3) {
+  border-top:  1px solid #E1E8EE;
+  border-bottom:  1px solid #E1E8EE;
+}
+
+.buttons {
+  position: relative;
+  padding-top: 30px;
+  margin-right: 60px;
+}
+.delete-btn,
+.like-btn {
+  display: inline-block;
+  Cursor: pointer;
+}
+.delete-btn {
+  width: 18px;
+  height: 17px;
+  background: url(../cancel.png) no-repeat center;
+}
+ 
+.like-btn {
+  position: absolute;
+  top: 9px;
+  left: 15px;
+  background: url(../cancel.png);
+  width: 60px;
+  height: 60px;
+  background-size: 2900%;
+  background-repeat: no-repeat;
+}
+
+.is-active {
+  animation-name: animate;
+  animation-duration: .8s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(28);
+  animation-fill-mode: forwards;
+}
+ 
+@keyframes animate {
+  0%   { background-position: left;  }
+  50%  { background-position: right; }
+  100% { background-position: right; }
+}
+
+.image {
+  margin-right: 50px;
+}
+ 
+Let’s add some basic style to  product name and description.
+.description {
+  padding-top: 10px;
+  margin-right: 60px;
+  width: 115px;
+}
+ 
+.description span {
+  display: block;
+  font-size: 14px;
+  color: #43484D;
+  font-weight: 400;
+}
+ 
+.description span:first-child {
+  margin-bottom: 5px;
+}
+.description span:last-child {
+  font-weight: 300;
+  margin-top: 8px;
+  color: #86939E;
+}
+
+.quantity {
+  padding-top: 20px;
+  padding-left: 60px;
+  margin-right: 60px;
+}
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
+ 
+button[class*=btn] {
+  width: 30px;
+  height: 30px;
+
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.minus-btn{
+  background-color:white;
+}
+.plus-btn{
+  background-color:white;
+}
+ 
+button:focus,
+input:focus {
+  outline:0;
+}
+
+
+.total-price {
+  width: 83px;
+  padding-top: 27px;
+  text-align: center;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
+
+@media (max-width: 800px) {
+  .shopping-cart {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .item {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image img {
+    width: 50%;
+  }
+  .image,
+  .quantity,
+  .description {
+    width: 100%;
+    text-align: center;
+    margin: 6px 0;
+  }
+  .buttons {
+    margin-right: 20px;
+  }
+ }
+
+.block-w{
+   float:right;
+  }
+
+.block-w img{
+    border-radius:10px;
+  }
+
+.block-v{
+   float:left;
+  }
+  .block-v img{
+    border-radius:10px;
+  }
+
+  .block-k{
+    margin-top: 40px;
+    float:left;
+   }
+   .block-k img{
+     border-radius:10px;
+   }
+
+   .block-wi{
+    margin-top: 40px;
+    float:right;
+   }
+   .block-wi img{
+     border-radius:10px;
+   }
+.text{
+  height:1000px;
+  margin-top: 30px;
+  width: 800px;
+  display: inline-block;
+}
+
+.undercont{
+  background: url(../pic/vodaa.jpg) no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.row_info{
+  background: url(../pic/sea.jpg) no-repeat;
+  background-size: cover;
+}
+
+.search{
+  float:right;
+  padding-right: 30px;
+  padding-top: 50px;
+}
+
+
+.menu_pay{
+	position: fixed;
+	background-color: rgba(0,0,0,.85);
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	text-align: center;
+}
+
+#pay:hover{
+	background-color: #2c6d99;
+	
+}
+#pay:focus{
+	outline: none;
+}
+#pay:active{
+	background-color:  #053758;
+}
+#pay{
+	padding: 0 15px;
+	cursor: pointer;
+	background-color:  #053758;
+	border: none;
+	height: 50px;
+  width: 130px;
+  float: right;
+  margin-top: -45px;
+	font-size:22px;
+	color: white;
+}
+.menu_pay ul{
+	margin-top: 200px;
+  width: 500px;
+  height: 500px;
+	display: inline-block;
+	list-style: none;
+	overflow: hidden;
+}
+
+
+.menu_pay ul div{
+
+	border-top: 0;
+	border-radius: 3px;
+}
+
+.tab_pay{
+  background-color: gray;
+  height: 240px;
+}
+
+.pay-button{
+	width: 150px; 
+background:  #053758; 
+border: none; 
+line-height: 30px; 
+cursor: pointer; 
+border-radius: 2px; 
+font-size: 20px; 
+color: white;
+outline: none;
+bottom: 90px;
+}
+.pay-button:hover
+{
+	background-color:  #5887a7;
+}
+.pay-button:active{
+	background-color:  #053758;
+}
+
+.btn_close_pay{
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	background: url(../cancel.png) no-repeat;
+	background-size: cover;
+	width: 35px;
+	height: 35px;
+	border: none;
+  outline: none;
+  background-color:  #053758;
+	cursor: pointer;
+}
+.btn_close_pay:hover{
+	opacity: .7;
+}
+
+.allert_menu{
+  height: 25px;
+  width: 200px;
+  background-color: gray;
+  display: none;
+  margin: auto;
+  color: white;
+}
